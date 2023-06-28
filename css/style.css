@@ -1,0 +1,61 @@
+*{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(156, 155, 155);
+}
+
+    /* HEADER STYLE */
+    header{
+        background-color: rgb(28, 28, 48);
+        color:blanchedalmond;
+        height: 10%;
+        padding-bottom: 1em;
+        padding-left: 1em;
+    }
+    /* NAV STYLE */
+    .containerNav{
+        background-color: rgb(28, 28, 48);
+    }
+    nav{
+        background-color: rgb(41, 41, 65);
+        border-radius: 8px;
+    }
+
+    /* MAIN STYLE */
+    .carousel, .carousel-inner > .item > img {
+        width: 40em;
+    }
+    .containerCarrousel{
+        margin-top: 1em;
+        display: flex;
+        justify-content: center;
+    }
+    main{
+        margin-bottom: 2em;
+    }
+
+    /* FOOTER STYLE */
+    footer{
+        background-color: rgb(28, 28, 48);
+        color:blanchedalmond;
+        height: 10%;
+        padding-top: 2em;
+    }
+    .containerFoot{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .redes{
+        display: flex;
+        flex-direction: row-reverse;
+        padding-right: 3em;
+    }
+    .red1, .red2{
+        padding-left: 2em;
+        padding-right: 1em;
+    }

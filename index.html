@@ -3,9 +3,87 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Ecommerce de Videojuegos</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
-    
+  
+  <!-- HEADER -->
+  <header>
+    <section>
+      <h1>Nombre Ecommerce</h1>
+    </section>
+    <div class="containerSubtitulo">
+      <p>¡Tenemos los videojuegos que buscas!</p>
+    </div>
+  </header>
+  
+  <!-- NAVs -->
+  <div class="containerNav">
+    <nav>  
+      <ul class="nav nav-pills nav-fill">
+          <li class="nav-item">
+              <a class="nav-link active" aria-current="page" id="inicio" href="#">Inicio</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="inventario" href="#">Inventario</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link" id="lista" href="#">Listado de Productos</a>
+          </li>
+          <li class="nav-item">
+              <a class="nav-link disabled" id="login">Login</a>
+          </li>
+      </ul>
+    </nav>
+  </div>      
+
+  <!-- MAIN -->
+  <main>
+    <div class="containerCarrousel">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="imagenes/eldenRing.jpg" class="d-block w-100" alt="Elden-Ring">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/fifa23.jpg" class="d-block w-100" alt="Fifa-23">
+          </div>
+          <div class="carousel-item">
+            <img src="imagenes/spiderman.jpg" class="d-block w-100" alt="Spiderman">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </div>
+  </main>
+
+  <!-- FOOTER -->
+  <footer>
+    <section class="redes">
+      <div class="red1">
+        <a href="https://www.linkedin.com/in/tobias-ganin-2bb703278/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+      <div class="red2">
+        <a href="https://www.linkedin.com/in/francobonini/" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+      </div>
+    </section>
+    <section class="containerFoot">
+      <h5>Desarrollado por:</h5>
+      <h5>Tobias Ganin</h5>
+      <h5>Franco Bonini</h5>
+    </section>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
 </body>
 </html>

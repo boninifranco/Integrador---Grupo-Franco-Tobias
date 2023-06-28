@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inventario ABM</title>
+</head>
+
+<body>
+    <section>
+        <form id="miForm">
+            <label for="foto">Foto</label>
+            <input type="file" id="foto">
+
+            <label for="juego">Juego</label>
+            <input type="text" id="juego" name="juego" required>
+
+            <label for="descripcion-juego" id="label-descripcion-juego">Descripción</label>
+            <input type="text" name="descripcion-juego" id="descripcion-juego">
+
+            <input type="submit" value="Agregar">
+        </form>
+        <h4>Lista de Juegos:</h4>
+        <ul id="juegos-list"></ul>
+    </section>
+
+    <script src="../js/abm.js"></script>
+</body>
+
+</html>
