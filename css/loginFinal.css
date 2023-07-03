@@ -1,17 +1,39 @@
 body {
     font-family: Arial, sans-serif;
-    background-color: #6b4949;
+    background-color: rgb(156, 155, 155);
     margin: 0;
     padding: 0;
 }
-
+/* HEADER STYLE */
+header{
+    background-color: rgb(28, 28, 48);
+    color:rgb(244, 249, 250);
+    height: 10%;
+    padding-bottom: 1em;
+    padding-left: 1em;
+}
+.logo{
+    display: flex;
+    justify-content: center;
+}
+/* NAV STYLE */
+.containerNav{
+    background-color: rgb(28, 28, 48);
+}
+nav{
+    background-color: rgb(41, 41, 65);
+    border-radius: 8px;
+}
 .main{
+    background-color: rgb(156, 155, 155);
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 65vh;
     flex-direction: column;
 }
+
+/*estilo formulario*/
 .input-group i {
     position: absolute;
     left: -10%;
@@ -19,10 +41,18 @@ body {
 
 }
 .input-group {
+    display: flex;
     position: relative;
     margin-bottom: 1px;
+    text-align: center;
+    flex-direction: column;
+    align-content: center;
+    justify-content: space-between;
+    align-items: center;
 }
 .input-group input {
+    display: flex;
+    justify-content: center;
     padding-left: 30px;
 }
 .inicioSesion{
@@ -38,18 +68,20 @@ body {
 form{
     display: flex;
     flex-direction: column;
-    width: 15%;
+    width: 20%;
     margin: 0 auto;
     background-color: #757070a6;
-    padding: 40px;
+    padding: 10px 40px 40px 40px;
     border-radius: 5px;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
 }
 
+/*estilo input y botones*/
 label {
     display: block;
     margin-bottom: 30px;
 }
+
 
 input{
   width: 90%;
@@ -58,6 +90,7 @@ input{
   border: 1px solid #ccc;
   align-items: center;
 }
+
 
 button {
     width: 50%;
@@ -73,4 +106,43 @@ button {
 .btn-submit{
     text-align: center;
     margin-top: 20px;
+}
+
+.margen{
+    padding-bottom: 10px;
+}
+
+/* color rojo texto error*/
+#errorIngreso {
+    color: red;
+}
+span{
+    padding-left: 10px;
+    padding-right: 10px;
+}
+p{
+    text-align: center;
+}
+
+/* FOOTER STYLE */
+footer{
+    background-color: rgb(28, 28, 48);
+    color:rgb(244, 249, 250);
+    height: 10%;
+    padding-top: 2em;
+    margin-top: auto;
+}
+.containerFoot{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.redes{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 3em;
+}
+.red1, .red2{
+    padding-left: 2em;
+    padding-right: 1em;
 }
